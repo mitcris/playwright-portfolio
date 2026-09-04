@@ -34,6 +34,27 @@ At this point (July 31st, 2026) I completed:
 6. Learned that each test runs independently and must be self-sufficient.
 7. Learned to organize tests by functionality (one .spec file per feature).
 
+### Week 3 — Codegen
+
+1. Learned to record flows with Codegen and, more importantly, to read
+   and refine the generated code (not just paste it).
+2. Learned to choose stable locators and to add my own assertions,
+   since Codegen records actions but rarely verifications.
+3. Explored the difference between toBeVisible, toHaveText, and
+   toHaveCount, and how to pick the right assertion for the test's goal.
+
+### Week 4 — Locators in depth & repo organization
+
+1. Applied real code review feedback from my manager: removed dead code,
+   added Arrange-Act-Assert structure, and fixed the final newline.
+2. Learned git stash to safely handle uncommitted local changes.
+3. Organized the test suite by feature: consolidated into login.spec.ts
+   and cart.spec.ts, removing duplicates.
+4. Learned to choose locators with criteria: user-facing first
+   (getByRole, getByText), then stable attributes (data-test).
+5. Learned to prefer identity over position, and how to handle multiple
+   matching elements (strict mode, filter vs nth).
+
 ## Author
 
 Mitzi Mejia — Senior QA Engineer
