@@ -55,6 +55,17 @@ At this point (July 31st, 2026) I completed:
 5. Learned to prefer identity over position, and how to handle multiple
    matching elements (strict mode, filter vs nth).
 
+### Week 5 — Negative Login Testing & Test Coverage
+
+1. Expanded the login test coverage on SauceDemo by adding five negative scenarios: locked-out user, invalid username, incorrect password, empty username, and empty password.
+2. Continued applying the Arrange-Act-Assert structure to keep each test organized and easy to understand.
+3. Practiced using `toHaveText()` to validate exact error messages, making sure the application responds correctly to invalid login attempts.
+4. Executed the login test suite across Chromium, Firefox, and WebKit, with 21 passing tests.
+5. Created a Pull Request and received code review feedback about repetitive steps, test data setup, and opportunities to make the code more maintainable.
+6. Identified opportunities to reduce duplicated code. This will be the starting point for learning Data-Driven Testing (DDT) and exploring reusable patterns such as Page Object Model (POM).
+
+**Key takeaway:** This week helped me turn my existing functional testing knowledge into automated negative test scenarios. I also started thinking beyond making tests pass and considering how to keep them readable, reusable, and easier to maintain as the project grows.
+
 ## Author
 
 Mitzi Mejia — Senior QA Engineer
